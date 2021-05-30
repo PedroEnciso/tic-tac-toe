@@ -25,6 +25,12 @@ main {
 
 .space {
   border: 1px solid #111;
+  transition: 0.4s background-color;
+  cursor: pointer;
+}
+
+.space:hover {
+  background-color: blue;
 }
 
 #space0,

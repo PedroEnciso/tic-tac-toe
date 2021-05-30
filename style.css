@@ -24,6 +24,8 @@ main {
 }
 
 .space {
+  display: grid;
+  place-items: center;
   border: 1px solid #111;
   transition: 0.4s background-color;
   cursor: pointer;

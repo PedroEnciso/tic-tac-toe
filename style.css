@@ -11,7 +11,6 @@ main {
 }
 
 .gameboard {
-  background: lightblue;
   width: 70%;
   height: 70%;
   display: grid;
@@ -29,10 +28,11 @@ main {
   border: 1px solid #111;
   transition: 0.4s background-color;
   cursor: pointer;
+  font-size: 60px;
 }
 
 .space:hover {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 #space0,
